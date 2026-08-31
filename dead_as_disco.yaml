@@ -3,4 +3,26 @@ steam_id: 3404260
 nexus_id: deadasdisco
 accent_colour: "#d611fb"
 
-mods_path: Pagoda/Content/Paks/~mods/
+mods_path:
+- path: "Pagoda/Content/Paks/~mods/"
+  name: Paks mods
+  description: "Used for Paks mods."
+- path: "Pagoda/Content/Paks/LogicMods/"
+  name: Logic mods
+  description: "Used for Logic Paks mods"
+- path: "Pagoda/Binaries/Win64/ue4ss/Mods/"
+  name: Lua mods
+  description: "Used for UE4SS mods"
+- path: "Pagoda/Binaries/Win64/ue4ss/"
+  name: UE4SS Signature
+  description: "Used for UE4SS Signatures"
+
+essential-utilities:
+  RE-UE4SS:
+    name: RE-UE4SS
+    version: experimental-latest
+    creator: UE4SS-RE
+    creator-link: https://github.com/UE4SS-RE
+    source: "https://github.com/Okaetsu/RE-UE4SS/releases/download/experimental-palworld/UE4SS-Palworld.zip"
+    utility_path: "Pagoda/Binaries/Win64/"
+    launch_options: WINEDLLOVERRIDES='UE4SS=n,b;dwmapi=n,b' %command%
