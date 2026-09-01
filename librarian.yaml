@@ -1,0 +1,22 @@
+name: "Librarian: Tidy Up the Arcane Library!"
+steam_id: 4197610
+nexus_id: librariantidyupthearcanelibrary
+accent_colour: "#7e261a"
+
+mods_path:
+- path: "Librarian/Content/Paks/~mods/"
+  name: Paks mods
+  description: "Used for Paks mods."
+- path: "Librarian/Binaries/Win64/ue4ss/Mods/"
+  name: UE4SS mods
+  description: "Used for UE4SS mods"
+
+essential-utilities:
+  UE4SS:
+    name: RE-UE4SS
+    version: experimental-latest
+    creator: UE4SS-RE
+    creator-link: https://github.com/UE4SS-RE
+    source: "https://github.com/Okaetsu/RE-UE4SS/releases/download/experimental-palworld/UE4SS-Palworld.zip"
+    utility_path: "Librarian/Binaries/Win64/"
+    steam_launch_options: WINEDLLOVERRIDES='UE4SS=n,b;dwmapi=n,b' %command%
