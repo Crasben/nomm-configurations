@@ -21,7 +21,7 @@ Once your configuration is created, you can go find it by going in the settings 
 
 <img width="737" height="221" alt="image" src="https://github.com/user-attachments/assets/689619f8-4ad7-4266-8781-4c96548b0e41" />
 
-Then open the `custom-game-configs` folder and you will find your created configurations!
+Then open the `custom_game_configs` folder and you will find your created configurations!
 
 ### Sharing your creation with the community
 
