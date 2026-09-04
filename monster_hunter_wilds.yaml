@@ -4,18 +4,18 @@ mods_path: ""
 accent_colour: "#910324"
 nexus_id: "monsterhunterwilds"
 
-essential-utilities:
+essential_utilities:
   reframeworkVR:
     name: "REFramework (VR Support)"
     creator: praydog
-    creator-link: https://github.com/praydog
+    creator_link: https://github.com/praydog
     source: "https://github.com/praydog/REFramework/releases/download/v1.5.9.1/MHWILDS.zip"
     utility_path: ""
   
   reframework:
     name: "REFramework (No VR Support)"
     creator: praydog
-    creator-link: https://github.com/praydog
+    creator_link: https://github.com/praydog
     source: "https://github.com/praydog/REFramework/releases/download/v1.5.9.1/MHWILDS.zip"
     utility_path: ""
     whitelist: 

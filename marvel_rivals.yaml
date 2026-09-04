@@ -5,12 +5,12 @@ accent_colour: "#fcd92d"
 
 mods_path: MarvelGame/Marvel/Content/Paks/~mods/
 
-essential-utilities:
+essential_utilities:
   utoc-signature-bypass-patch:
     name: UTOC Signature Bypass Patch for Marvel Rivals
     version: 1.0.0
     creator: DeathChaos
-    creator-link: https://www.nexusmods.com/profile/DeathChaos
+    creator_link: https://www.nexusmods.com/profile/DeathChaos
     source: https://github.com/DeathChaos25/MarvelRivalsUTOCSignatureBypass/releases/latest/download/Marvel.Rivals.UTOC.Signature.Bypass.Patch.zip
     utility_path: MarvelGame/Marvel/Binaries/Win64
     enable_command: ""

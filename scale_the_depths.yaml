@@ -2,7 +2,7 @@ accent_colour: '#3584e4'
 essential_utilities:
   bepinex:
     creator: BepInEx
-    creator-link: https://github.com/BepInEx
+    creator_link: https://github.com/BepInEx
     enable_command: ''
     launch_options: WINEDLLOVERRIDES='winhttp=n,b' %command%
     source: https://builds.bepinex.dev/projects/bepinex_be/785/BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.785%2B6abdba4.zip

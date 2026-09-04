@@ -17,12 +17,12 @@ mods_path:
   name: UE4SS Signature
   description: "Used for UE4SS Signatures"
 
-essential-utilities:
+essential_utilities:
   RE-UE4SS:
     name: RE-UE4SS
     version: experimental-latest
     creator: UE4SS-RE
-    creator-link: https://github.com/UE4SS-RE
+    creator_link: https://github.com/UE4SS-RE
     source: "https://github.com/Okaetsu/RE-UE4SS/releases/download/experimental-palworld/UE4SS-Palworld.zip"
     utility_path: "Pagoda/Binaries/Win64/"
     launch_options: WINEDLLOVERRIDES='UE4SS=n,b;dwmapi=n,b' %command%

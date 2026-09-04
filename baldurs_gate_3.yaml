@@ -7,12 +7,12 @@ mods_path:
 
 nexus_id: "baldursgate3"
 
-essential-utilities:
+essential_utilities:
   norbyte-script-extender:
     name: "Norbyte's Baldur's Gate 3 Script Extender"
     version: 1.5
     creator: Norbyte
-    creator-link: https://github.com/Norbyte
+    creator_link: https://github.com/Norbyte
     source: "https://github.com/Norbyte/bg3se/releases/download/updater-20240430/BG3SE-Updater-20240430.zip"
     utility_path: "bin/"
     enable_command: ""
