@@ -23,12 +23,12 @@ mods_path:
   name: PalSchema Mods (UE4SS installed manually/via NOMM)
   description: Mods path for PalSchema mods if UE4SS was installed from the utilities tab in Nomm.
 
-essential-utilities:
+essential_utilities:
   UE4SS:
     name: RE-UE4SS
     version: experimental-palworld
     creator: Okaetsu
-    creator-link: https://github.com/okaetsu
+    creator_link: https://github.com/okaetsu
     source: https://github.com/Okaetsu/RE-UE4SS/releases/download/experimental-palworld/UE4SS-Palworld.zip
     utility_path: "/Palword/Pal/Binaries/Win64"
     launch_options: WINEDLLOVERRIDES='dwmapi=n,b' %command%
